@@ -1,0 +1,27 @@
+body {
+	background-color:#282828;
+	font-family:Calibri, Arial, Helvetica, sans-serif;
+	color:#67a7d8;
+}
+
+div.main {
+	width:600px;
+	height:auto;
+	margin:auto;
+	text-align:justify;
+}
+
+a:link {
+	color:#8c6ed3;
+	text-decoration:none;
+}
+
+a:visited {
+	color:#8c6ed3;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#cab4fd;
+	text-decoration:none;
+}
