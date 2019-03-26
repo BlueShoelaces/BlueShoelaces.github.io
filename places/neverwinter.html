@@ -1,0 +1,62 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="../styles/style.css" />
+  <link rel="stylesheet" type="text/css" href="styles/neverwinter-style.css" />
+</head>
+
+<body>
+  <div class="main">
+    <h1>Neverwinter</h1>
+
+    <img
+      id="neverwinter"
+      src="https://i.pinimg.com/originals/62/6c/a1/626ca1bdeb4eee8b451610173e1673a8.jpg"
+      alt="Neverwinter"
+      style="width:100%;max-width:300px"
+    />
+
+    <div id="neverwinter-modal" class="modal">
+      <!-- The Close Button -->
+      <span class="close">&times;</span>
+
+      <!-- Modal Content (The Image) -->
+      <img class="modal-content" id="neverwinter-modal-img" />
+
+      <!-- Modal Caption (Image Text) -->
+      <div id="neverwinter-caption"></div>
+    </div>
+
+    <h2>Helpful links</h2>
+    Wikipedia 4th edition map
+    <h2>Overview (from canon)</h2>
+    Thriving, diverse city decimated by volcano eruption. Now there's a rift.
+    Neverwinter river heats the city. Fire elementals living in Mt Hotenow. City
+    is being restored to its former glory.
+    <h2>Neverwinter Academy</h2>
+    Founded by Ilanis Firahel about ten years ago. She and her student, Wickabree, are hoping their research will help
+    put Neverwinter back on the map.
+  </div>
+</body>
+
+<script>
+  // Get the modal
+  var modal = document.getElementById("neverwinter-modal");
+
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = document.getElementById("neverwinter");
+  var modalImg = document.getElementById("neverwinter-modal-img");
+  var captionText = document.getElementById("neverwinter-caption");
+  img.onclick = function() {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  };
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  };
+</script>
