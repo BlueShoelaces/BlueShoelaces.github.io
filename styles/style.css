@@ -1,6 +1,10 @@
 body {
 	background-color:#282828;
 	font-family:Calibri, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
 	color:#67a7d8;
 }
 
