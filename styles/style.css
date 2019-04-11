@@ -29,3 +29,7 @@ a:hover {
 	color:#cab4fd;
 	text-decoration:none;
 }
+
+table.timeline td {
+	padding: 10px;
+}
